@@ -103,6 +103,7 @@ func main() {
 
 	err = account.Withdraw(200)
 	if err != nil {
+		fmt.Printf("Error: %s\n", err)
 		return
 	}
 
